@@ -1,13 +1,12 @@
 @font-face {
   font-family: CircularBlack;
-  src: url('assets/CircularStd-Black.ttf');
+  src: url("assets/CircularStd-Black.ttf");
 }
-
 
 body {
   margin: 0;
-  font-family: 'Arial';
-  font-family: 'CircularBlack', 'sans-serif';
+  font-family: "Arial";
+  font-family: "CircularBlack", "sans-serif";
 }
 
 .page__container {
@@ -18,6 +17,11 @@ body {
   justify-content: center;
   align-items: center;
   background: white;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  margin: 0;
 }
 
 .navbar {
@@ -49,7 +53,7 @@ body {
   align-items: center;
   background: white;
   border-radius: 5px;
-  box-shadow: 4px 4px 16px rgba(0,0,0,0.2);
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 .name {
@@ -59,21 +63,21 @@ body {
 #result-area {
   width: 200px;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 #play-btn {
   font-size: 25px;
   padding: 15px 50px;
-  background: #E60F17;
+  background: #e60f17;
   color: white;
   border-radius: 5px;
-  box-shadow: -5px 5px 10px rgba(0,0,0,0.2);
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
 #play-btn:hover {
-  background: #F82414;
+  background: #f82414;
 }
 
 .footer {
@@ -88,5 +92,5 @@ body {
 
 .link {
   text-decoration: none;
-  color: #F82414;
+  color: #f82414;
 }
